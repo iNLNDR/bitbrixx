@@ -13,7 +13,7 @@
   <a href="https://inlndr.github.io/bitbrixx/"><b>▶ Play now</b></a> ·
   <a href="docs/MANUAL.md">How to play</a> ·
   <a href="#install-it-like-an-app">Install on your phone</a> ·
-  <a href="#turn-on-the-top-20-leaderboard">Leaderboard setup</a>
+  <a href="#top-20-leaderboard">Top 20</a>
 </p>
 
 <p align="center">
@@ -110,3 +110,11 @@ Tap **THEME**, or tap the little theme window next to the logo, to switch themes
 Created by **inlndr @ 2026**.
 
 The music and game graphics are original and not copied from any existing game.
+
+## License
+
+**© 2026 inlndr. All rights reserved.**
+
+You're welcome to **play** Bitbrixx and **share the link** with friends. 🎮
+
+You may **not** copy, modify, reuse or re-upload the code, graphics, music or any other part of this project, in whole or in part, without written permission. See [LICENSE](LICENSE) for the full terms.

@@ -230,3 +230,7 @@ Press the round **i** button next to the theme window to see the game version an
 | **The game doesn't open offline** | Open it once while you're online, from the Home Screen icon. After that it works without internet. |
 
 ← [Back to README](../README.md)
+
+---
+
+© 2026 inlndr. All rights reserved. See [LICENSE](../LICENSE).
