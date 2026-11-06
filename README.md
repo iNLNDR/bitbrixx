@@ -5,7 +5,7 @@
 <h1 align="center">BITBRIXX</h1>
 
 <p align="center">
-  <b>A pocket brick-game console with 10 games, 6 shell themes, an 8-bit soundtrack and a worldwide Top 20, playable right in your phone's browser.</b><br>
+  <b>A pocket brick-game console with 11 games, 6 shell themes, an 8-bit soundtrack and a worldwide Top 20, playable right in your phone's browser.</b><br>
   No download, no account, no ads. It works offline once you've opened it.
 </p>
 
@@ -26,7 +26,7 @@
 
 Bitbrixx recreates the feel of the classic handheld brick games: a dot-matrix LCD with a score panel, chunky buttons and blocky sound effects. It's built to be played with your thumbs on a phone.
 
-- **10 games in one console.** Switch between them from the menu.
+- **11 games in one console.** Switch between them from the menu.
 - **A Top 20 leaderboard shared by everyone who plays.** No login: you just enter a name of up to 5 letters, like an arcade machine.
 - **6 shell themes.** Clear, Ocean, Bubblegum, Lemon, Graphite (with a green backlight) and Mint.
 - **An original 8-bit soundtrack.** It has a calm menu tune, a game tune that speeds up as you level up, and a mocking song when you lose.
@@ -38,16 +38,17 @@ Bitbrixx recreates the feel of the classic handheld brick games: a dot-matrix LC
 
 | # | Game | What you do |
 |---|------|-------------|
-| 1 | **Tetra** | Stack falling blocks and clear full lines. Shows a ghost preview of where the piece will land. |
+| 1 | **Brixfall** | Stack falling blocks and clear full lines. Shows a ghost preview of where the piece will land. |
 | 2 | **Snake** | Eat the blinking dot, grow longer, and don't bite yourself. |
-| 3 | **Breaker** | Bounce the ball and smash the brick wall. |
+| 3 | **Brixbash** | Bounce the ball and smash the brick wall. |
 | 4 | **Racer** | Switch lanes to dodge oncoming cars. Hold **A** to go faster. |
 | 5 | **Shooter** | Shoot down the brick rows before they reach you. |
 | 6 | **Tennis** | Rally the ball past the computer's paddle. |
-| 7 | **Flappy** | Tap to flap through the gaps in the pipes. |
+| 7 | **Skyhop** | Tap to flap through the gaps in the pipes. |
 | 8 | **Runner** | An endless runner: hop or double-jump over cacti, and duck under birds. |
 | 9 | **Cross** | Move the frog across 14 lanes of traffic. |
 | 10 | **Dodge** | Dodge the falling rocks for as long as you can. |
+| 11 | **Tank** | Drive your tank, blast through brick walls, and destroy the enemy tanks before they get you. |
 
 The full rules and controls for every game are in the **[Play Manual](docs/MANUAL.md)**.
 
@@ -57,7 +58,7 @@ The full rules and controls for every game are in the **[Play Manual](docs/MANUA
 |:---:|:---:|
 | <img src="docs/screenshots/entry.png" width="240" alt="Entering a name for the leaderboard"> | <img src="docs/screenshots/board.png" width="240" alt="The Top 20 leaderboard"> |
 
-- There's **one board for all 10 games**. Each entry shows the player's name, the game and the score.
+- There's **one board for all 11 games**. Each entry shows the player's name, the game and the score.
 - **To get on the board:** you need at least **500 points**. Once the board has 20 names, you have to **beat the lowest score on it**, so the bar keeps rising as people play.
 - When a game ends with a qualifying score, you get to enter a name of up to **5 letters**. Use ▲▼ to pick each letter, ◀▶ to move, and **A** to save.
 - Tap **TOP 20** on the menu to see the board at any time.

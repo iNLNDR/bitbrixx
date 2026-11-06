@@ -11,7 +11,7 @@
 - [Lives, levels and scores](#lives-levels-and-scores)
 - [Top 20 leaderboard](#top-20-leaderboard)
 - [About screen](#about-screen)
-- Games: [Tetra](#1--tetra) · [Snake](#2--snake) · [Breaker](#3--breaker) · [Racer](#4--racer) · [Shooter](#5--shooter) · [Tennis](#6--tennis) · [Flappy](#7--flappy) · [Runner](#8--runner) · [Cross](#9--cross) · [Dodge](#10--dodge)
+- Games: [Brixfall](#1--brixfall) · [Snake](#2--snake) · [Brixbash](#3--brixbash) · [Racer](#4--racer) · [Shooter](#5--shooter) · [Tennis](#6--tennis) · [Skyhop](#7--skyhop) · [Runner](#8--runner) · [Cross](#9--cross) · [Dodge](#10--dodge) · [Tank](#11--tank)
 - [Troubleshooting](#troubleshooting)
 
 <br clear="right">
@@ -38,9 +38,9 @@
 The left side is the **play field**, 12 bricks wide and 20 bricks tall. The right side is the **info panel**:
 
 - **SCORE** and **HI-SCORE**: your current score and your best score for this game.
-- **NEXT**: a small 4×4 box. In Tetra it shows the next piece. In most other games, the **top row shows your lives**, one dot per life. In Shooter it shows a timer bar.
+- **NEXT**: a small 4×4 box. In Brixfall it shows the next piece. In most other games, the **top row shows your lives**, one dot per life. In Shooter it shows a timer bar.
 - **LEVEL** and **SPEED**: your current level and the speed setting.
-- **Game name** and number, such as `TETRA · GAME 1/10`.
+- **Game name** and number, such as `BRIXFALL · GAME 1/11`.
 - **Sound status** in the bottom-right corner. If it blinks **TAP**, sound hasn't started yet, so tap any button.
 
 ## Starting a game
@@ -54,7 +54,7 @@ The game pauses by itself if you switch to another app. Press **START** or **A**
 
 ## Lives, levels and scores
 
-- Most games give you **4 lives**. When you lose one, your piece blinks and you continue from a safe spot. Tetra and Shooter have no lives: the game ends when the bricks fill up.
+- Most games give you **4 lives**. When you lose one, your piece blinks and you continue from a safe spot. Brixfall and Shooter have no lives: the game ends when the bricks fill up.
 - Points are **multiplied by your level**, so the same move is worth more later on.
 - Every game gets **faster or harder** as you level up, and the music speeds up with it.
 - When the game ends, the screen fills up, a mocking 8-bit song plays, and you get a **HA HA HA!** If your score made the Top 20, you can enter your name next. Otherwise you're back on the menu.
@@ -62,7 +62,7 @@ The game pauses by itself if you switch to another app. Press **START** or **A**
 
 ## Top 20 leaderboard
 
-There's **one shared board for all 10 games**, and everyone who plays the game sees it.
+There's **one shared board for all 11 games**, and everyone who plays the game sees it.
 
 **Getting on the board**
 1. Finish a game with at least **500 points**. While the board has fewer than 20 names, that's enough. Once it's full, your score must also **beat the lowest score on the board** (the 20th place), which pushes that score off.
@@ -82,7 +82,7 @@ Press the round **i** button next to the theme window to see the game version an
 
 ---
 
-## 1 · Tetra
+## 1 · Brixfall
 *Stack the falling blocks and clear lines.*
 
 | Control | Action |
@@ -112,7 +112,7 @@ Press the round **i** button next to the theme window to see the game version an
 - Hitting a wall or your own body costs a life.
 - **Tip:** you can press up to 3 turns ahead, which helps with tight U-turns.
 
-## 3 · Breaker
+## 3 · Brixbash
 *Smash the brick wall.*
 
 | Control | Action |
@@ -162,7 +162,7 @@ Press the round **i** button next to the theme window to see the game version an
 - Missing the ball costs a life.
 - **Tip:** hit the ball with the edge of your paddle to send it at an angle the computer can't reach.
 
-## 7 · Flappy
+## 7 · Skyhop
 *Flap through the pipes.*
 
 | Control | Action |
@@ -214,6 +214,22 @@ Press the round **i** button next to the theme window to see the game version an
 - Each rock that falls past you is worth 5 × level points.
 - **Level up** every 40 rocks, and more rocks fall faster.
 - Getting hit costs a life.
+
+## 11 · Tank
+*Win the tank battle.*
+
+| Control | Action |
+|---|---|
+| ◀ ▲ ▶ ▼ | Turn your tank to face that way. Press again, or hold, to drive. |
+| **A** | Fire. Hold to keep firing. You can have 2 shots on screen at once. |
+
+- **Enemy tanks** roll in from the top and hunt you down. They shoot when you're in front of them.
+- Each enemy you destroy is worth 20 × level points.
+- **Brick walls** block tanks and shots. Shoot a brick to knock it out and open a path.
+- Your shot and an enemy shot cancel out if they collide, which is a good way to block an attack.
+- **Level up** every 10 enemies. More enemy tanks come at once, they move faster, and new walls appear.
+- Getting hit costs a life. You come back at the bottom, and nearby enemies are cleared away.
+- **Tip:** keep moving sideways. Enemies only fire when they're lined up with you.
 
 ---
 
