@@ -1,0 +1,31 @@
+rules_version = '2';
+
+// Bitbrixx Top 20 leaderboard rules.
+// Anyone can read the board and add a score. Nobody can edit or delete scores
+// (you can still delete them yourself from the Firebase console).
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /scores/{scoreId} {
+      allow get: if true;
+      allow list: if request.query.limit <= 50;
+
+      allow create: if request.resource.data.keys().hasOnly(['name', 'game', 'score', 'at'])
+        && request.resource.data.keys().hasAll(['name', 'game', 'score', 'at'])
+        && request.resource.data.name is string
+        && request.resource.data.name.matches('^[A-Z0-9]{1,5}$')
+        && request.resource.data.game in ['TETRA', 'SNAKE', 'BREAKER', 'RACER', 'SHOOTER',
+                                          'TENNIS', 'FLAPPY', 'RUNNER', 'CROSS', 'DODGE']
+        && request.resource.data.score is int
+        && request.resource.data.score >= 500
+        && request.resource.data.score < 1000000
+        && request.resource.data.at is timestamp;
+
+      allow update, delete: if false;
+    }
+
+    // Everything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
