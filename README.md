@@ -27,7 +27,7 @@
 Bitbrixx recreates the feel of the classic handheld brick games: a dot-matrix LCD with a score panel, chunky buttons and blocky sound effects. It's built to be played with your thumbs on a phone.
 
 - **11 games in one console.** Switch between them from the menu.
-- **A Top 20 leaderboard shared by everyone who plays.** No login: you just enter a name of up to 5 letters, like an arcade machine.
+- **A Top 20 leaderboard for every game,** shared by everyone who plays. No login: you just enter a name of up to 6 letters, like an arcade machine.
 - **6 shell themes.** Clear, Ocean, Bubblegum, Lemon, Graphite (with a green backlight) and Mint.
 - **An original 8-bit soundtrack.** It has a calm menu tune, a game tune that speeds up as you level up, and a mocking song when you lose.
 - **A separate high score for each game,** saved on your device.
@@ -58,10 +58,21 @@ The full rules and controls for every game are in the **[Play Manual](docs/MANUA
 |:---:|:---:|
 | <img src="docs/screenshots/entry.png" width="240" alt="Entering a name for the leaderboard"> | <img src="docs/screenshots/board.png" width="240" alt="The Top 20 leaderboard"> |
 
-- There's **one board for all 11 games**. Each entry shows the player's name, the game and the score.
-- **To get on the board:** you need at least **500 points**. Once the board has 20 names, you have to **beat the lowest score on it**, so the bar keeps rising as people play.
-- When a game ends with a qualifying score, you get to enter a name of up to **5 letters**. Use ▲▼ to pick each letter, ◀▶ to move, and **A** to save.
-- Tap **TOP 20** on the menu to see the board at any time.
+- **Every game has its own Top 20.** Each entry shows the player's **name, level and points**. Rankings are by points only. On the board, press ◀▶ to flip between games.
+- Games score very differently, so each one has its own **minimum score** to get on the board:
+
+  | Game | Minimum | Game | Minimum |
+  |---|---:|---|---:|
+  | Brixfall | 1,000 | Skyhop | 100 |
+  | Snake | 300 | Runner | 500 |
+  | Brixbash | 500 | Cross | 300 |
+  | Racer | 300 | Dodge | 300 |
+  | Shooter | 2,000 | Tank | 300 |
+  | Tennis | 300 | | |
+
+- Once a board has 20 names, you have to **beat its lowest score** to get on, so the bar keeps rising.
+- When a game ends with a qualifying score, you enter a name of up to **6 letters**. Use ▲▼ to pick each letter, ◀▶ to move, and **A** to save.
+- Tap **TOP 20** on the menu to see the board for the game you've selected.
 - If you play offline, your score is saved and uploads automatically the next time you're online.
 
 *The leaderboard screenshot shows example names.*
