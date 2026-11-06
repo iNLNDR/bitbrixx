@@ -62,15 +62,15 @@ The game pauses by itself if you switch to another app. Press **START** or **A**
 
 ## Top 20 leaderboard
 
-There's **one shared board for all 11 games**, and everyone who plays the game sees it.
+**Every game has its own Top 20 board**, and everyone who plays sees the same boards.
 
-**Getting on the board**
-1. Finish a game with at least **500 points**. While the board has fewer than 20 names, that's enough. Once it's full, your score must also **beat the lowest score on the board** (the 20th place), which pushes that score off.
+**Getting on a board**
+1. Finish a game with at least that game's **minimum score**: Brixfall 1,000 · Snake 300 · Brixbash 500 · Racer 300 · Shooter 2,000 · Tennis 300 · Skyhop 100 · Runner 500 · Cross 300 · Dodge 300 · Tank 300. While a board has fewer than 20 names, that's enough. Once it's full, your score must also **beat the lowest score on it**, which pushes that score off.
 2. After the game-over song, the **TOP 20!** screen shows your rank.
-3. Enter a name of up to **5 letters or numbers**: ▲▼ changes the letter, ◀▶ moves between slots, and **A** saves. **EXIT** skips it.
+3. Enter a name of up to **6 letters or numbers**: ▲▼ changes the letter, ◀▶ moves between slots, and **A** saves. **EXIT** skips it.
 4. The board opens with your entry highlighted. The game remembers your name for next time.
 
-**Seeing the board:** press **TOP 20** on the menu. Scroll with ▲▼, and press **A** or **EXIT** to go back.
+**Seeing the boards:** press **TOP 20** on the menu to open the board for the game you've selected. Each entry shows the player's **name, the level they reached, and their points**. Rankings are by points only, and the level is just extra information. Press ◀▶ to flip to other games, scroll with ▲▼, and press **A** or **EXIT** to go back.
 
 **Playing offline:** your score is saved on your phone and uploads by itself the next time you're online. The board shows "waiting to upload" until it's sent.
 
