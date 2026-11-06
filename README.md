@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://YOUR-USERNAME.github.io/bitbrixx/"><b>▶ Play now</b></a> ·
+  <a href="https://inlndr.github.io/bitbrixx/"><b>▶ Play now</b></a> ·
   <a href="docs/MANUAL.md">How to play</a> ·
   <a href="#install-it-like-an-app">Install on your phone</a> ·
   <a href="#turn-on-the-top-20-leaderboard">Leaderboard setup</a>
