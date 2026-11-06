@@ -105,58 +105,6 @@ Tap **THEME**, or tap the little theme window next to the logo, to switch themes
 
 > 🔊 **No sound on iPhone?** Tap any button once, because phones only allow sound after a touch. Then turn up the media volume. The bottom-right corner of the screen shows **MUSIC**, **SFX** or **MUTE**.
 
-## Put it on GitHub Pages
-
-1. Create a new **public** repository called `bitbrixx`.
-2. Upload all the files from this folder to the root of the repository.
-3. Go to **Settings → Pages**. Under *Build and deployment*, choose **Deploy from a branch**, then pick the **main** branch and the **/ (root)** folder, and save.
-4. After a minute your game is live at `https://YOUR-USERNAME.github.io/bitbrixx/`.
-5. Edit this README and replace `YOUR-USERNAME` with your GitHub username, so the **Play now** link works.
-
-## Turn on the Top 20 leaderboard
-
-The game runs without this. Until you set it up, the TOP 20 screen says the leaderboard is off. Turning it on takes about 10 minutes, using a free [Firebase](https://firebase.google.com/) database. The free plan has no time limit and is far bigger than this game needs.
-
-1. Go to the **[Firebase console](https://console.firebase.google.com/)** and sign in with a Google account.
-2. Click **Create a project** and name it `bitbrixx`. You can turn off Google Analytics, because the game doesn't need it.
-3. In the left menu, open **Build → Firestore Database**, then click **Create database**. Pick a location near your players (for Indonesia, choose **asia-southeast2 (Jakarta)**). Start in **production mode**.
-4. Open the **Rules** tab, delete everything there, paste in the contents of [`firebase/firestore.rules`](firebase/firestore.rules), and click **Publish**.
-5. Click the **⚙ gear → Project settings**. Under **Your apps**, click the **web icon `</>`**, give the app any nickname, and register it. You don't need Firebase Hosting.
-6. Firebase shows a block of code called `firebaseConfig`. Copy two values from it: **`apiKey`** and **`projectId`**.
-7. On GitHub, open `index.html`, click the ✏️ edit button, and search for this line:
-   ```js
-   const LEADERBOARD = { projectId: '', apiKey: '' };
-   ```
-   Fill in your two values, for example:
-   ```js
-   const LEADERBOARD = { projectId: 'bitbrixx-1a2b3', apiKey: 'AIzaSy...' };
-   ```
-   Then **commit** the change. After a minute, the leaderboard is live for everyone.
-
-**Is it safe to put the apiKey in a public repository?** Yes. A Firebase web key isn't a password: it only says which project to talk to. What players can do is controlled by `firestore.rules`, which only lets people **add** a score of 500 or more, with a 1–5 character name. Nobody can edit or delete scores except you, from the Firebase console.
-
-**A note on cheating:** there's no login, so a determined person could send a fake score. The rules block obviously broken entries, and the game filters out rude names, but no free setup can stop cheating completely. If a fake score shows up, delete it in **Firestore Database → Data → scores**.
-
-## Project files
-
-```
-bitbrixx/
-├── index.html              ← the whole game (graphics, games, music, leaderboard)
-├── manifest.webmanifest    ← app name, icon and colours for "Add to Home Screen"
-├── sw.js                   ← saves the game on your phone for offline play
-├── README.md               ← this page
-├── icons/                  ← app icons (180, 192 and 512 px)
-├── docs/
-│   ├── MANUAL.md           ← the play manual
-│   └── screenshots/        ← pictures used on this page
-└── firebase/
-    └── firestore.rules     ← security rules to paste into Firebase
-```
-
-`index.html`, `manifest.webmanifest` and `sw.js` must stay in the top folder, or the game and offline mode stop working.
-
-It's plain HTML, CSS and JavaScript, with no build step and no libraries. The graphics are drawn on a canvas, and every sound is generated live with the Web Audio API, so there are no audio files.
-
 ## Credits
 
 Created by **inlndr @ 2026**.
